@@ -63,26 +63,26 @@ public class MainMenu {
 
 	private static void listarProdutos() {
 		System.out.println("Função para listar produtos.");
-		
+
 	}
 
 	private static void atualizarProduto() {
 		System.out.println("Função para atualizar produto.");
-		
+
 	}
 
 	private static void excluirProduto() {
 		System.out.println("Função para excluir produto.");
-		
+
 	}
 
 	private static void comprarProduto() {
 		System.out.println("Função para comprar produto.");
-		
+
 	}
 
 	private static void exibirPreco() {
 		System.out.println("Função para exibir preço.");
-		
+
 	}
 }
