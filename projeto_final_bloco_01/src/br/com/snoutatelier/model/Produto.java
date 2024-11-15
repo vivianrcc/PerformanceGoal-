@@ -38,4 +38,9 @@ public abstract class Produto {
 		this.preco = preco;
 	}
 
+	// METODO TOSTRING
+	@Override
+	public String toString() {
+		return "ID: " + id + ", Nome: " + nome + ", Preço: R$" + preco;
+	}
 }

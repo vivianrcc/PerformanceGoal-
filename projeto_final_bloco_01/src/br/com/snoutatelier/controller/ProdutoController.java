@@ -58,4 +58,9 @@ public class ProdutoController implements ProdutoRepository {
 	public Produto buscarProdutoPorId(int id) {
 		return listaProdutos.stream().filter(produto -> produto.getId() == id).findFirst().orElse(null);
 	}
+
+	// MéETODO PATA ACESSAR LIOSTA DE PRODUTOS
+	public ArrayList<Produto> getListaProdutos() {
+		return listaProdutos;
+	}
 }
